@@ -11,4 +11,4 @@ build:
     override:
       - gcc soul.c -o soul -lpthread
        # Prevent failure if file doesn't exist
-      - python3 sid.py
+      - python3 soul.py
