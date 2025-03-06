@@ -10,5 +10,6 @@ build:
   tests:
     override:
       - gcc soul.c -o soul -lpthread
+      - ls
        # Prevent failure if file doesn't exist
       - python3 soul.py
